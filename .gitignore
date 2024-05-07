@@ -1,0 +1,25 @@
+# Ignoring backup folders
+backup/
+
+# Ignoring PyCharm cach files
+/.idea
+__pycache__/
+venv/
+.python-version
+.mypy_cache/
+# Ignoring files other than code
+*.png
+*.xlsx
+# Ignoring notebooks
+.ipynb
+.ipynb_checkpoints
+*.ipynb
+*.ipynb_checkpoints
+# Data directories
+data/
+s3_data/
+azurite_data/
+#env file
+*.env
+# Aws config
+.aws

@@ -1,0 +1,1212 @@
+"name","id"
+"World",1
+"Rest Of World",2
+"europe",3
+"north_america",4
+"central_south_america",5
+"africa",6
+"asia",7
+"oceania",8
+"global",9
+"Aruba",10
+"Afghanistan",11
+"Angola",12
+"Anguilla",13
+"Åland Islands",14
+"Albania",15
+"Andorra",16
+"United Arab Emirates",17
+"Argentina",18
+"Armenia",19
+"American Samoa",20
+"Antarctica",21
+"French Southern Territories",22
+"Antigua and Barbuda",23
+"Australia",24
+"Austria",25
+"Azerbaijan",26
+"Burundi",27
+"Belgium",28
+"Benin",29
+"Bonaire, Sint Eustatius and Saba",30
+"Burkina Faso",31
+"Bangladesh",32
+"Bulgaria",33
+"Bahrain",34
+"Bahamas",35
+"Bosnia and Herzegovina",36
+"Saint Barthélemy",37
+"Belarus",38
+"Belize",39
+"Bermuda",40
+"Bolivia, Plurinational State of",41
+"Brazil",42
+"Barbados",43
+"Brunei Darussalam",44
+"Bhutan",45
+"Bouvet Island",46
+"Botswana",47
+"Central African Republic",48
+"Canada",49
+"Cocos (Keeling) Islands",50
+"Switzerland",51
+"Chile",52
+"China",53
+"Côte d'Ivoire",54
+"Cameroon",55
+"Congo, The Democratic Republic of the",56
+"Congo",57
+"Cook Islands",58
+"Colombia",59
+"Comoros",60
+"Cabo Verde",61
+"Costa Rica",62
+"Cuba",63
+"Curaçao",64
+"Christmas Island",65
+"Cayman Islands",66
+"Cyprus",67
+"Czechia",68
+"Germany",69
+"Djibouti",70
+"Dominica",71
+"Denmark",72
+"Dominican Republic",73
+"Algeria",74
+"Ecuador",75
+"Egypt",76
+"Eritrea",77
+"Western Sahara",78
+"Spain",79
+"Estonia",80
+"Ethiopia",81
+"Finland",82
+"Fiji",83
+"Falkland Islands (Malvinas)",84
+"France",85
+"Faroe Islands",86
+"Micronesia, Federated States of",87
+"Gabon",88
+"United Kingdom",89
+"Georgia",90
+"Guernsey",91
+"Ghana",92
+"Gibraltar",93
+"Guinea",94
+"Guadeloupe",95
+"Gambia",96
+"Guinea-Bissau",97
+"Equatorial Guinea",98
+"Greece",99
+"Grenada",100
+"Greenland",101
+"Guatemala",102
+"French Guiana",103
+"Guam",104
+"Guyana",105
+"Hong Kong",106
+"Heard Island and McDonald Islands",107
+"Honduras",108
+"Croatia",109
+"Haiti",110
+"Hungary",111
+"Canary Islands",112
+"Indonesia",113
+"Isle of Man",114
+"India",115
+"British Indian Ocean Territory",116
+"Ireland",117
+"Iran, Islamic Republic of",118
+"Iraq",119
+"Iceland",120
+"Israel",121
+"Italy",122
+"Jamaica",123
+"Jersey",124
+"Jordan",125
+"Japan",126
+"Kazakhstan",127
+"Kenya",128
+"Kyrgyzstan",129
+"Cambodia",130
+"Kiribati",131
+"Saint Kitts and Nevis",132
+"Korea, Republic of",133
+"Kosovo",134
+"Kuwait",135
+"Lao People's Democratic Republic",136
+"Lebanon",137
+"Liberia",138
+"Libya",139
+"Saint Lucia",140
+"Liechtenstein",141
+"Sri Lanka",142
+"Lesotho",143
+"Lithuania",144
+"Luxembourg",145
+"Latvia",146
+"Macao",147
+"Saint Martin (French part)",148
+"Morocco",149
+"Monaco",150
+"Moldova, Republic of",151
+"Madagascar",152
+"Maldives",153
+"Mexico",154
+"Marshall Islands",155
+"North Macedonia",156
+"Mali",157
+"Malta",158
+"Myanmar",159
+"Montenegro",160
+"Mongolia",161
+"Northern Mariana Islands",162
+"Mozambique",163
+"Mauritania",164
+"Montserrat",165
+"Martinique",166
+"Mauritius",167
+"Malawi",168
+"Malaysia",169
+"Mayotte",170
+"Namibia",171
+"New Caledonia",172
+"Niger",173
+"Norfolk Island",174
+"Nigeria",175
+"Nicaragua",176
+"Niue",177
+"Netherlands",178
+"Norway",179
+"Nepal",180
+"Nauru",181
+"New Zealand",182
+"Oman",183
+"Pakistan",184
+"Panama",185
+"Pitcairn",186
+"Peru",187
+"Philippines",188
+"Palau",189
+"Papua New Guinea",190
+"Poland",191
+"Puerto Rico",192
+"Korea, Democratic People's Republic of",193
+"Portugal",194
+"Paraguay",195
+"Palestine, State of",196
+"French Polynesia",197
+"Qatar",198
+"Réunion",199
+"Romania",200
+"Russian Federation",201
+"Rwanda",202
+"Saudi Arabia",203
+"Sudan",204
+"Senegal",205
+"Singapore",206
+"South Georgia and the South Sandwich Islands",207
+"Saint Helena, Ascension and Tristan da Cunha",208
+"Svalbard and Jan Mayen",209
+"Solomon Islands",210
+"Sierra Leone",211
+"El Salvador",212
+"San Marino",213
+"Somalia",214
+"Saint Pierre and Miquelon",215
+"Serbia",216
+"South Sudan",217
+"Sao Tome and Principe",218
+"Suriname",219
+"Slovakia",220
+"Slovenia",221
+"Sweden",222
+"Eswatini",223
+"Sint Maarten (Dutch part)",224
+"Seychelles",225
+"Syrian Arab Republic",226
+"Turks and Caicos Islands",227
+"Chad",228
+"Togo",229
+"Thailand",230
+"Tajikistan",231
+"Tokelau",232
+"Turkmenistan",233
+"Timor-Leste",234
+"Tonga",235
+"Trinidad and Tobago",236
+"Tunisia",237
+"Turkey",238
+"Tuvalu",239
+"Taiwan, Province of China",240
+"Tanzania, United Republic of",241
+"Uganda",242
+"Ukraine",243
+"United States Minor Outlying Islands",244
+"Uruguay",245
+"United States",246
+"Uzbekistan",247
+"Holy See (Vatican City State)",248
+"Saint Vincent and the Grenadines",249
+"Venezuela, Bolivarian Republic of",250
+"Virgin Islands, British",251
+"Virgin Islands, U.S.",252
+"Viet Nam",253
+"Vanuatu",254
+"Wallis and Futuna",255
+"Samoa",256
+"Yemen",257
+"South Africa",258
+"Zambia",259
+"Zimbabwe",260
+"CA-QC",261
+"CA-AB",262
+"CA-ON",263
+"CN-FJ",264
+"US-WECC",265
+"CN-SC",266
+"CA-NS",267
+"US-SERC",268
+"US-NPCC",269
+"CA-NB",270
+"CA-PE",271
+"US-RFC",272
+"US-TRE",273
+"US-MRO",274
+"FR-COR",275
+"CN-NM",276
+"BR-MG",277
+"US-HICC",278
+"CA-SK",279
+"US-ASCC",280
+"BR-MA",281
+"CA-MB",282
+"BR-MT",283
+"BR-TO",284
+"BR-BA",285
+"BR-PI",286
+"BR-GO",287
+"BR-Southern grid",288
+"BR-South-eastern/Mid-western grid",289
+"BR-PA",290
+"BR-ES",291
+"BR-North-eastern grid",292
+"CA-BC",293
+"BR-SP",294
+"CN-GD",295
+"BR-AP",296
+"CN-SH",297
+"BR-PR",298
+"CA-NT",299
+"BR-CE",300
+"BR-SE",301
+"BR-AC",302
+"BR-MS",303
+"IN-MH",304
+"BR-RO",305
+"CN-ZJ",306
+"BR-AM",307
+"BR-SC",308
+"CN-SD",309
+"CN-JS",310
+"CN-LN",311
+"BR-Northern grid",312
+"IN-TN",313
+"BR-RS",314
+"CN-HB",315
+"CN-HA",316
+"BR-RR",317
+"CN-HU",318
+"CN-JL",319
+"IN-GJ",320
+"CN-AH",321
+"CN-JX",322
+"CN-HN",323
+"IN-UP",324
+"CN-HE",325
+"CN-SX",326
+"CN-BJ",327
+"CN-TJ",328
+"CN-GX",329
+"CN-GS",330
+"CN-NX",331
+"CN-HL",332
+"CN-XJ",333
+"CN-YN",334
+"CN-QH",335
+"CN-CQ",336
+"CN-SA",337
+"CN-GZ",338
+"Île-de-France",339
+"IN-Eastern grid",340
+"BR-DF",341
+"IN-AP",342
+"CA-YK",343
+"IN-KA",344
+"IN-RJ",345
+"CN-XZ",346
+"BR-PB",347
+"BR-RJ",348
+"BR-AL",349
+"IN-Northern grid",350
+"IN-Western grid",351
+"IN-North-eastern grid",352
+"IN-Southern grid",353
+"IN-MP",354
+"CA-NF",355
+"IN-OR",356
+"Auvergne-Rhône-Alpes",357
+"IN-PB",358
+"BR-RN",359
+"IN-HR",360
+"IN-WB",361
+"IN-BR",362
+"IN-CT",363
+"IN-UT",364
+"CN-ECGC",365
+"AU-NSW",366
+"AU-VIC",367
+"CA-NU",368
+"AU-QLD",369
+"CN-CCG",370
+"Nouvelle-Aquitaine",371
+"US-MN",372
+"CN-CSG",373
+"CN-SWG",374
+"IN-AS",375
+"IN-KL",376
+"AU-SA",377
+"AU-WA",378
+"CN-NCGC",379
+"Bretagne",380
+"Lorraine",381
+"IN-GA",382
+"CN-NWG",383
+"AU-TAS",384
+"IN-HP",385
+"US-PR",386
+"IN-JH",387
+"CN-NECG",388
+"BR-PE",389
+"US-WI",390
+"Pays de la Loire",391
+"Midi-Pyrénées",392
+"Centre",393
+"Alsace",394
+"IN-DL",395
+"US-IL",396
+"IN-ML",397
+"US-NE",398
+"US-OR",399
+"IN-NL",400
+"US-IN",401
+"IN-TR",402
+"US-IA",403
+"IN-MN",404
+"US-WA",405
+"US-ND",406
+"IN-DN",407
+"CN-SGCC",408
+"IN-PY",409
+"IN-JK",410
+"IN-MZ",411
+"Aquitaine",412
+"Auvergne",413
+"Basse-Normandie",414
+"Bourgogne",415
+"Champagne-Ardenne",416
+"Corse",417
+"Franche-Comté",418
+"Haute-Normandie",419
+"Languedoc-Roussillon",420
+"Limousin",421
+"Nord-Pas-de-Calais",422
+"Picardie",423
+"Poitou-Charentes",424
+"Provence-Alpes-Côte d'Azur",425
+"Rhône-Alpes",426
+"IN-AR",427
+"US-ID",428
+"US-CO",429
+"US-OH",430
+"US-FL",431
+"US-SD",432
+"IN-SK",433
+"US-CA",434
+"US-MROE",435
+"US-AKGD",436
+"US-AKMS",437
+"US-AZNM",438
+"US-CAMX",439
+"US-ERCT",440
+"US-FRCC",441
+"US-HIMS",442
+"US-HIOA",443
+"US-MROW",444
+"US-NEWE",445
+"US-NWPP",446
+"US-NYCW",447
+"US-NYLI",448
+"US-NYUP",449
+"US-PRMS",450
+"US-RFCE",451
+"US-RFCM",452
+"US-RFCW",453
+"US-RMPA",454
+"US-SPNO",455
+"US-SPSO",456
+"US-SRMV",457
+"US-SRMW",458
+"US-SRSO",459
+"US-SRTV",460
+"US-SRVC",461
+"US-US Average",462
+"IN-CH",463
+"IN-DD",464
+"Strasbourg",465
+"Montpellier",466
+"Rennes",467
+"Toulouse",468
+"Angers",469
+"Saint-Avold",470
+"Nordheim",471
+"Courbevoie",472
+"Bordeaux",473
+"Lyon",474
+"Rouen",475
+"Limoges",476
+"Franconville",477
+"Dijon",478
+"Roanne",479
+"Nancy",480
+"Amiens",481
+"Saint-Denis",482
+"Orly",483
+"Bourg-en-Bresse",484
+"Marseille",485
+"Martigues",486
+"Grenoble",487
+"Saint-Étienne",488
+"Saint-Etienne-de-Cuines",489
+"Nantes",490
+"Reims",491
+"Nice",492
+"Clermont-Ferrand",493
+"Levallois-Perret",494
+"Sevran",495
+"Bayeux",496
+"Tours",497
+"Mont-de-Marsan",498
+"Blois",499
+"Pélussin",500
+"Embrun",501
+"Vandœuvre-lès-Nancy",502
+"Metz",503
+"Lille",504
+"Haguenau",505
+"Rillieux-la-Pape",506
+"Villeurbanne",507
+"Thonon-les-Bains",508
+"Le Havre",509
+"Meaux",510
+"Niort",511
+"Poitiers",512
+"Sens",513
+"Grigny",514
+"Colombes",515
+"Suresnes",516
+"Aulnay-sous-Bois",517
+"Soyaux",518
+"Oyonnax",519
+"Troyes",520
+"Carcassonne",521
+"Narbonne",522
+"Decazeville",523
+"Rodez",524
+"Aix-en-Provence",525
+"Gardanne",526
+"Caen",527
+"Falaise",528
+"Lisieux",529
+"Aurillac",530
+"Saint-Flour",531
+"Saint-Georges",532
+"Champagne-Mouton",533
+"Châteaubernard",534
+"Jonzac",535
+"La Rochelle",536
+"Vierzon",537
+"Sornac",538
+"Saint-Quentin",539
+"Soissons",540
+"Plouaret",541
+"Bourganeuf",542
+"Felletin",543
+"Audincourt",544
+"Besançon",545
+"Pierrelatte",546
+"Concevreux",547
+"Louviers",548
+"Pont-Audemer",549
+"Vernon",550
+"Brest",551
+"Plougastel-Daoulas",552
+"Moulins",553
+"Sales",554
+"Blagnac",555
+"Cenon",556
+"Gironde-sur-Dropt",557
+"Le Barp",558
+"Pellegrue",559
+"Castelnau-le-Lez",560
+"Lattes",561
+"Châteauroux",562
+"Saint-Pierre-des-Corps",563
+"Saint-Marcellin",564
+"Villard-de-Lans",565
+"Champvans",566
+"Dole",567
+"Lons-le-Saunier",568
+"Manosque",569
+"Firminy",570
+"Montrond-les-Bains",571
+"Dunières",572
+"Mazet-Saint-Voy",573
+"Pradelles",574
+"Tence",575
+"Yssingeaux",576
+"Fleury-les-Aubrais",577
+"Montargis",578
+"Orléans",579
+"Pithiviers",580
+"Nuzéjouls",581
+"Écouflant",582
+"Saumur",583
+"Cherbourg-Octeville",584
+"Épernay",585
+"Chaumont",586
+"Saint-Dizier",587
+"Bar-le-Duc",588
+"Ligny-en-Barrois",589
+"Verdun",590
+"Creutzwald",591
+"Freyming-Merlebach",592
+"Sarreguemines",593
+"Stiring-Wendel",594
+"Château-Chinon(Ville)",595
+"Nevers",596
+"Dunkerque",597
+"Maubeuge",598
+"Villeneuve-d'Ascq",599
+"Cannes",600
+"Roquebrune",601
+"Creil",602
+"Montataire",603
+"Nogent-sur-Oise",604
+"Argentan",605
+"Flers",606
+"Arras",607
+"Avion",608
+"Béthune",609
+"Calais",610
+"Lens",611
+"Outreau",612
+"Beaumont",613
+"Lingolsheim",614
+"Schiltigheim",615
+"Colmar",616
+"Mulhouse",617
+"Saint-Louis",618
+"Écully",619
+"Givors",620
+"Gleizé",621
+"Oullins",622
+"Vaulx-en-Velin",623
+"Yzeron",624
+"Gray",625
+"Saulnot",626
+"Autun",627
+"Montceau-les-Mines",628
+"Le Mans",629
+"Chanaz",630
+"Yenne",631
+"Clarafond-Arcine",632
+"Cluses",633
+"Faverges",634
+"Scionzier",635
+"Seynod",636
+"Canteleu",637
+"Mont-Saint-Aignan",638
+"Avon",639
+"Chelles",640
+"Coulommiers",641
+"Dammarie-les-Lys",642
+"Melun",643
+"Montereau-Fault-Yonne",644
+"Nemours",645
+"Torcy",646
+"Mantes-la-Jolie",647
+"Plaisir",648
+"Saint-Germain-en-Laye",649
+"Versailles",650
+"Charleville-Mézières",651
+"Carmaux",652
+"Castres",653
+"Mazamet",654
+"Avignon",655
+"Épinal",656
+"Fresse-sur-Moselle",657
+"La Bresse",658
+"Belfort",659
+"Gevry",660
+"Massy",661
+"Ris-Orangis",662
+"Saclay",663
+"Saint-Michel-sur-Orge",664
+"Villejust",665
+"Boulogne-Billancourt",666
+"Chaville",667
+"Gennevilliers",668
+"Nanterre",669
+"Puteaux",670
+"Bagnolet",671
+"Bobigny",672
+"Bondy",673
+"La Courneuve",674
+"Le Bourget",675
+"Villepinte",676
+"Alfortville",677
+"Bonneuil-sur-Marne",678
+"Cachan",679
+"Champigny-sur-Marne",680
+"Fresnes",681
+"Ivry-sur-Seine",682
+"Sucy-en-Brie",683
+"Thiais",684
+"Villeneuve-Saint-Georges",685
+"Vitry-sur-Seine",686
+"Argenteuil",687
+"Garges-lès-Gonesse",688
+"Pontoise",689
+"Froissy",690
+"Roissy-en-France",691
+"Sarcelles",692
+"Villiers-le-Bel",693
+"Belley",694
+"Dortan",695
+"Hauteville-Lompnes",696
+"Saint-Denis-lès-Bourg",697
+"Treffort-Cuisiat",698
+"Les Noës-près-Troyes",699
+"Piney",700
+"Capdenac-Gare",701
+"Cransac",702
+"Onet-le-Château",703
+"Saint-Affrique",704
+"Coudoux",705
+"Istres",706
+"Salon-de-Provence",707
+"Vitrolles",708
+"Argences",709
+"Aunay-sur-Odon",710
+"Hérouville-Saint-Clair",711
+"Vire",712
+"Arpajon-sur-Cère",713
+"Murat",714
+"Riom-ès-Montagnes",715
+"Vebret",716
+"Angoulême",717
+"Baignes",718
+"Brossac",719
+"Montembœuf",720
+"Saint-Bonnet",721
+"Segonzac",722
+"Saint-Yrieix-sur-Charente",723
+"Aytré",724
+"Gémozac",725
+"Pons",726
+"Asnières",727
+"Bourges",728
+"Brive-la-Gaillarde",729
+"Égletons",730
+"Eyrein",731
+"Saint-Pantaléon-de-Larche",732
+"Servières-le-Château",733
+"Barenton-Bugny",734
+"Château-Thierry",735
+"Urcel",736
+"Belleneuve",737
+"Nuits-Saint-Georges",738
+"Collinée",739
+"Lannion",740
+"Le Gouray",741
+"Loudéac",742
+"Plessala",743
+"Ploufragan",744
+"Ploumilliau",745
+"Pluzunet",746
+"Gentioux-Pigerolles",747
+"Guéret",748
+"Saint-Yrieix-la-Perche",749
+"Coulounieix",750
+"Douville",751
+"Le Buisson-de-Cadouin",752
+"Périgueux",753
+"Saint-Astier",754
+"Amancey",755
+"Bethoncourt",756
+"Frasne",757
+"Goux-les-Usiers",758
+"Le Russey",759
+"Montbéliard",760
+"Morteau",761
+"Mouthe",762
+"Myon",763
+"Pontarlier",764
+"Villars-sous-Écot",765
+"Montélimar",766
+"Romans-sur-Isère",767
+"Valence",768
+"Vassieux-en-Vercors",769
+"Canappeville",770
+"Conches-en-Ouche",771
+"Grandvilliers",772
+"Les Andelys",773
+"Chartres",774
+"Châteaudun",775
+"Lucey",776
+"Mainvilliers",777
+"Nogent-le-Rotrou",778
+"Voves",779
+"Briec",780
+"Bellenaves",781
+"Cérilly",782
+"Commentry",783
+"Cusset",784
+"Ébreuil",785
+"Le Mayet-de-Montagne",786
+"Meaulne",787
+"Montluçon",788
+"Lamelouze",789
+"Nîmes",790
+"Ayguesvives",791
+"Balma",792
+"Castanet-Tolosan",793
+"Ramonville-Saint-Agne",794
+"Bègles",795
+"La Réole",796
+"La Teste-de-Buch",797
+"Lesparre-Médoc",798
+"Lormont",799
+"Mérignac",800
+"Pessac",801
+"Saint-Pierre-d'Aurillac",802
+"Fraisse-sur-Agout",803
+"Juvignac",804
+"Pérols",805
+"Chartres-de-Bretagne",806
+"Combourg",807
+"Janzé",808
+"Vezin-le-Coquet",809
+"Vitré",810
+"Vitrey",811
+"Argenton-sur-Creuse",812
+"Issoudun",813
+"Neuvy-Saint-Sépulchre",814
+"Joué-lès-Tours",815
+"La Riche",816
+"Saint-Benoît-la-Forêt",817
+"Allevard",818
+"Bourgoin-Jallieu",819
+"Coublevie",820
+"Fontaine",821
+"Gières",822
+"Lans-en-Vercors",823
+"Mens",824
+"Monestier-de-Clermont",825
+"Noyarey",826
+"Pontcharra",827
+"Vinay",828
+"Voreppe",829
+"Arinthod",830
+"Avignon-lès-Saint-Claude",831
+"Hauts de Bienne",832
+"Moirans-en-Montagne",833
+"Allos",834
+"Barcelonnette",835
+"Castellane",836
+"Forcalquier",837
+"Dax",838
+"Mondoubleau",839
+"Neung-sur-Beuvron",840
+"Villeny",841
+"Vineuil",842
+"Andrézieux-Bouthéon",843
+"Colombier",844
+"Farnay",845
+"Jonzieux",846
+"La Terrasse-sur-Dorlay",847
+"La Tuilière",848
+"La Valla-en-Gier",849
+"Le Bessat",850
+"Luriecq",851
+"Marlhes",852
+"Neulise",853
+"Planfoy",854
+"Roches",855
+"Roisey",856
+"Saint-Héand",857
+"Saint-Bonnet-le-Château",858
+"Saint-Bonnet-le-Courreau",859
+"Saint-Chamond",860
+"Saint-Christo-en-Jarez",861
+"Saint-Cyr-de-Favières",862
+"Saint-Didier-sur-Rochefort",863
+"Saint-Haon-le-Châtel",864
+"Saint-Joseph",865
+"Saint-Martin-la-Sauveté",866
+"Saint-Maurice-en-Gourgois",867
+"Saint-Régis-du-Coin",868
+"Saint-Symphorien-de-Lay",869
+"Unieux",870
+"Usson-en-Forez",871
+"Allègre",872
+"Langeac",873
+"Le Puy-en-Velay",874
+"Saint-Bonnet-le-Froid",875
+"Châteaubriant",876
+"Saint-Herblain",877
+"Andrezel",878
+"Rezé",879
+"Saint-Jean-de-Boiseau",880
+"Saint-Julien-de-Concelles",881
+"Sainte-Luce-sur-Loire",882
+"Amilly",883
+"Biars-sur-Cère",884
+"Cahors",885
+"Caillac",886
+"Cajarc",887
+"Catus",888
+"Figeac",889
+"Gourdon",890
+"Gramat",891
+"Lacapelle-Marival",892
+"Les Quatre-Routes-du-Lot",893
+"Livernon",894
+"Saint-Germain-du-Bel-Air",895
+"Sousceyrac",896
+"Thégra",897
+"Le Passage",898
+"Mende",899
+"Saint-Chély-d'Apcher",900
+"Andrezé",901
+"Cholet",902
+"Montreuil-Bellay",903
+"Briançon",904
+"Tallard",905
+"Veynes",906
+"La Lucerne-d'Outremer",907
+"Le Teilleul",908
+"Pontorson",909
+"Châlons-en-Champagne",910
+"Vitry-le-François",911
+"Bourmont",912
+"Fayl-Billot",913
+"Langres",914
+"Longeau-Percey",915
+"Marac",916
+"Saint-Blin",917
+"Wassy",918
+"Château-Gontier",919
+"Laval",920
+"Saint-Hilaire-du-Maine",921
+"Barbonville",922
+"Briey",923
+"Écrouves",924
+"Laxou",925
+"Pont-à-Mousson",926
+"Tronville-en-Barrois",927
+"Auray",928
+"Hennebont",929
+"Lanester",930
+"Locminé",931
+"Locmiquélic",932
+"Saint-Leu-d'Esserent",933
+"Behren-lès-Forbach",934
+"Cocheren",935
+"Farébersviller",936
+"Rouhling",937
+"Sarrebourg",938
+"Yutz",939
+"Arleuf",940
+"Avrée",941
+"Bazolles",942
+"Billy-sur-Oisy",943
+"Brassy",944
+"Challuy",945
+"Corancy",946
+"Corbigny",947
+"Cosne-Cours-sur-Loire",948
+"Decize",949
+"La Charité-sur-Loire",950
+"Lormes",951
+"Montigny-en-Morvan",952
+"Moux-en-Morvan",953
+"Ouroux-en-Morvan",954
+"Planchez",955
+"Saint-Amand-en-Puisaye",956
+"Saint-Brisson",957
+"Saint-Saulge",958
+"Saint-Vrain",959
+"Varzy",960
+"Anzin",961
+"Baisieux",962
+"Douchy-les-Mines",963
+"Grande-Synthe",964
+"Hazebrouck",965
+"Lambersart",966
+"Mons-en-Barœul",967
+"Roubaix",968
+"Sains-du-Nord",969
+"Sin-le-Noble",970
+"Valenciennes",971
+"Wattignies",972
+"Wattrelos",973
+"Levens",974
+"Beauvais",975
+"Breteuil",976
+"Compiègne",977
+"Villers-Saint-Paul",978
+"Chalencon",979
+"Alençon",980
+"L'Aigle",981
+"La Ferté-Macé",982
+"Perrou",983
+"Achicourt",984
+"Anvin",985
+"Arques",986
+"Boulogne-sur-Mer",987
+"Liévin",988
+"Ambert",989
+"Ardes",990
+"Pontaumur",991
+"Riom",992
+"Rochefort-Montagne",993
+"Royat",994
+"Saint-Clément-de-Régnat",995
+"Saint-Germain-l'Herm",996
+"Bayonne",997
+"Pau",998
+"Vic-en-Bigorre",999
+"Osséja",1000
+"Perpignan",1001
+"Allenwiller",1002
+"Eschau",1003
+"La Petite-Pierre",1004
+"Morsbronn-les-Bains",1005
+"Niederbronn-les-Bains",1006
+"Ostwald",1007
+"Rittershoffen",1008
+"Saales",1009
+"Sarre-Union",1010
+"Sélestat",1011
+"Arville",1012
+"Ammertzwiller",1013
+"Brunstatt-Didenheim",1014
+"Cernay",1015
+"Didenheim",1016
+"Feldbach",1017
+"Friesen",1018
+"Fréland",1019
+"Heimersdorf",1020
+"Illzach",1021
+"Kaysersberg",1022
+"Lapoutroie",1023
+"Rixheim",1024
+"Sainte-Marie-aux-Mines",1025
+"Thann",1026
+"Bron",1027
+"Champagne-au-Mont-d'Or",1028
+"Chevigny-Saint-Sauveur",1029
+"La Tour-de-Salvagny",1030
+"Lamure-sur-Azergues",1031
+"Sathonay-Camp",1032
+"Vénissieux",1033
+"Villefranche-sur-Saône",1034
+"Aubenas",1035
+"Banne",1036
+"Burzet",1037
+"Le Cheylard",1038
+"Montpezat-sous-Bauzon",1039
+"Valgorge",1040
+"Breurey-lès-Faverney",1041
+"Champey",1042
+"Dampierre-sur-Linotte",1043
+"Héricourt",1044
+"Hernicourt",1045
+"Marnay",1046
+"Plancher-Bas",1047
+"Scey-sur-Saône-et-Saint-Albin",1048
+"Anost",1049
+"Chalon-sur-Saône",1050
+"Mâcon",1051
+"Matour",1052
+"Saint-Gengoux-de-Scissé",1053
+"Tramayes",1054
+"Allonnes",1055
+"Coulaines",1056
+"Tuffé",1057
+"Aix-les-Bains",1058
+"Albertville",1059
+"Beaufort",1060
+"Bourg-Saint-Maurice",1061
+"Chambéry",1062
+"Chambry",1063
+"Gilly-sur-Isère",1064
+"La Bauche",1065
+"Mâcot-la-Plagne",1066
+"Notre-Dame-des-Millières",1067
+"Saint-Jean-d'Arvey",1068
+"Ugine",1069
+"Annecy",1070
+"Annemasse",1071
+"Arâches-la-Frasse",1072
+"Cusy",1073
+"Cran-Gevrier",1074
+"Lucinges",1075
+"Morzine",1076
+"Reignier-Ésery",1077
+"Thorens-Glières",1078
+"Vallorcine",1079
+"Viry",1080
+"Dieppe",1081
+"Gonfreville-l'Orcher",1082
+"Le Grand-Quevilly",1083
+"Le Petit-Quevilly",1084
+"Maromme",1085
+"Neufchâtel-en-Bray",1086
+"Notre-Dame-de-Gravenchon",1087
+"Saint-Étienne-du-Rouvray",1088
+"Saint-Jean-de-Folleville",1089
+"Sandouville",1090
+"Bailly-Romainvilliers",1091
+"Bussy-Saint-Georges",1092
+"Chessy",1093
+"Le Mée-sur-Seine",1094
+"Ozoir-la-Ferrière",1095
+"Roissy-en-Brie",1096
+"Vaux-le-Pénil",1097
+"Villeneuve-Saint-Denis",1098
+"Vacheresse",1099
+"Achères",1100
+"Carrières-sous-Poissy",1101
+"Carrières-sur-Seine",1102
+"Le Chesnay",1103
+"Les Mureaux",1104
+"Vélizy-Villacoublay",1105
+"Bressuire",1106
+"L'Absie",1107
+"Lezay",1108
+"Romans",1109
+"Clavy-Warby",1110
+"Écordal",1111
+"Lalobbe",1112
+"Machault",1113
+"Montcornet",1114
+"Poix-Terron",1115
+"Rocroi",1116
+"Saint-Loup-Terrier",1117
+"Sedan",1118
+"Thin-le-Moutier",1119
+"Villers-le-Tourneur",1120
+"Abbeville",1121
+"Corbie",1122
+"Montdidier",1123
+"Alban",1124
+"Gaillac",1125
+"Graulhet",1126
+"Lacaune",1127
+"Caylus",1128
+"Montauban",1129
+"Nègrepelisse",1130
+"Villebrumier",1131
+"La Seyne-sur-Mer",1132
+"Toulon",1133
+"La Roche-sur-Yon",1134
+"Les Herbiers",1135
+"Saint-Pierre-du-Chemin",1136
+"Châtellerault",1137
+"Civaux",1138
+"Lusignan",1139
+"Bellac",1140
+"Ban-de-Sapt",1141
+"Denipaire",1142
+"Fraize",1143
+"Fremifontaine",1144
+"Monthureux-sur-Saône",1145
+"Saint-Dié-des-Vosges",1146
+"Senones",1147
+"Vagney",1148
+"Ventron",1149
+"Vittel",1150
+"Auxerre",1151
+"Quarré-les-Tombes",1152
+"Delle",1153
+"Bondoufle",1154
+"Brétigny-sur-Orge",1155
+"Bruyères-le-Châtel",1156
+"Dourdan",1157
+"Épinay-sous-Sénart",1158
+"Les Ulis",1159
+"Palaiseau",1160
+"Sainte-Geneviève-des-Bois",1161
+"Vigneux-sur-Seine",1162
+"Viry-Châtillon",1163
+"Bagneux",1164
+"Châtillon",1165
+"Clichy",1166
+"Meudon-la-Forêt",1167
+"Meudon",1168
+"Villeneuve-la-Garenne",1169
+"Clichy-sous-Bois",1170
+"Drancy",1171
+"Le Blanc-Mesnil",1172
+"Neuilly-sur-Marne",1173
+"Rosny-sous-Bois",1174
+"Saint-Ouen",1175
+"Tremblay-en-France",1176
+"Arcueil",1177
+"Chevilly-Larue",1178
+"Créteil",1179
+"Fontenay-sous-Bois",1180
+"Limeil-Brévannes",1181
+"Maisons-Alfort",1182
+"Rungis",1183
+"Cergy-Pontoise",1184
+"Cergy",1185
+"Goussainville",1186
+"Taverny",1187
+"European union",1188
+"Middle East",1189
+"G20",1190
+"G7",1191
+"OECD",1192
+"Gulf Cooperation Council",1193
+"Guadeloupe, Martinique, Guyane, Corse",1194
+"SAS",1195
+"UCTE",1196
+"IAI Area, North America",1197
+"GP hors COM",1198
+"PF - Tahiti",1199
+"Mediterranean",1200
+"NORDEL",1201
+"UCTE without Germany",1202
+"FR (overseas)",1203
+"ENTSO-E",1204
+"RME",1205
+"WECC",1206
+"PF - hors Tahiti",1207
+"DOM COM",1208
+"Other countries",1209
+"Pacific (avg)",1210
+"CS",1211
