@@ -1,0 +1,7 @@
+data/
+s3_data/
+azurite_data/
+venv/
+.idea/
+.mypy_cache/
+.git/

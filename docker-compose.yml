@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  # BEGIN ecodev_cloud
+  ecodev_cloud:
+    image: ecodev_cloud:latest
+    container_name: ecodev_cloud
+    restart: always
+    env_file:
+      - ./.env
+    networks:
+      - ecodev-network
+  # END ecodev_cloud
+
+networks:
+  ecodev-network:
+   name: ecodev-network

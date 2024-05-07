@@ -1,0 +1,147 @@
+name: pipeline
+
+on:
+  push:
+    paths-ignore:
+      - 'badges/**'
+
+jobs:
+  test:
+    name: code quality
+    runs-on: ubuntu-latest
+    env:
+      GITHUB-ACTION: true
+    services:
+      minio:
+        image: bitnami/minio:latest
+        options: >-
+          -e MINIO_ROOT_USER=minio12345
+          -e MINIO_ROOT_PASSWORD=minio12345
+          -e MINIO_ACCESS_KEY=minio12345
+          -e MINIO_SECRET_KEY=minio12345
+          --name minio
+        ports:
+          - 9000:9000
+      azurite:
+        image: mcr.microsoft.com/azure-storage/azurite
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build the Docker image
+        run: docker build . --file Dockerfile-dev --tag ecodev_cloud:latest
+
+      - name: S3 Tests
+        uses: addnab/docker-run-action@v3
+        with:
+          image: ecodev_cloud:latest
+          options:
+            -e secret_key=12345678123456781234567812345678
+            -e algorithm=yoyo
+            -e access_token_expire_minutes=30
+            -e s3_access_key_id=minio12345
+            -e s3_secret_access_key=minio12345
+            -e db_host=12345
+            -e db_port=12345
+            -e db_name=12345
+            -e db_username=12345
+            -e db_password=12345
+            -e MINIO_SERVER_HOST=minio
+            -e MINIO_SERVER_ACCESS_KEY=minio12345
+            -e MINIO_SERVER_SECRET_KEY=minio12345
+            -e s3_endpoint_url=http://minio:${{ job.services.minio.ports[9000] }}
+            -e s3_region_name=eu-de
+            -e s3_bucket_name=tititoto
+            -e s3_use=true
+            -e container=test
+            -e connection_string=DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://azurite:10000/devstoreaccount1;
+            -v ${{github.workspace}}/tests:/app/tests
+            -v ${{github.workspace}}/ecodev_cloud:/app/app
+            -v ${{github.workspace}}:/app/
+            -v ${{github.workspace}}/.coveragerc:/app/.coveragerc
+          run: |
+            python3.11 -m pip install coverage anybadge
+            python3.11 -m coverage run --omit */dist-packages/*,*tests/* -m unittest
+            coverage html
+            coverage report -m  --fail-under=60 --precision=2 > coverage.log
+            cat coverage.log
+            COVERAGE_SCORE=$(sed -n 's/^\(TOTAL\s*[0-9]*\s*[0-9]*\s*\)//p' coverage.log)
+            anybadge --label=coverage --value=$COVERAGE_SCORE --file=coverage.svg 50=red 60=orange 80=yellow 100=green
+            echo "Coverage score is $COVERAGE_SCORE"
+
+      - name: Blob Tests
+        uses: addnab/docker-run-action@v3
+        with:
+          image: ecodev_cloud:latest
+          options:
+            -e secret_key=12345678123456781234567812345678
+            -e algorithm=yoyo
+            -e access_token_expire_minutes=30
+            -e s3_access_key_id=minio12345
+            -e s3_secret_access_key=minio12345
+            -e db_host=12345
+            -e db_port=12345
+            -e db_name=12345
+            -e db_username=12345
+            -e db_password=12345
+            -e MINIO_SERVER_HOST=minio
+            -e MINIO_SERVER_ACCESS_KEY=minio12345
+            -e MINIO_SERVER_SECRET_KEY=minio12345
+            -e s3_endpoint_url=http://minio:${{ job.services.minio.ports[9000] }}
+            -e s3_region_name=eu-de
+            -e s3_bucket_name=tititoto
+            -e s3_use=true
+            -e cloud_provider=Azure
+            -e container=test
+            -e connection_string=DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://azurite:10000/devstoreaccount1;
+            -v ${{github.workspace}}/tests:/app/tests
+            -v ${{github.workspace}}/ecodev_cloud:/app/app
+            -v ${{github.workspace}}:/app/
+            -v ${{github.workspace}}/.coveragerc:/app/.coveragerc
+          run: |
+            python3.11 -m pip install coverage anybadge
+            python3.11 -m coverage run --omit */dist-packages/*,*tests/* -m unittest
+            coverage html
+            coverage report -m  --fail-under=60 --precision=2 > coverage.log
+            cat coverage.log
+            COVERAGE_SCORE=$(sed -n 's/^\(TOTAL\s*[0-9]*\s*[0-9]*\s*\)//p' coverage.log)
+            anybadge --label=coverage --value=$COVERAGE_SCORE --file=coverage.svg 50=red 60=orange 80=yellow 100=green
+            echo "Coverage score is $COVERAGE_SCORE"
+            mv coverage.svg ./badges/
+
+      - name: Analysing the code with pylint
+        uses: addnab/docker-run-action@v3
+        with:
+          image: ecodev_cloud:latest
+          options:
+            -v ${{github.workspace}}/ecodev_cloud:/app/app
+            -v ${{github.workspace}}:/app/
+          run: |
+            python3.11 -m pip install pylint anybadge
+            find app/ -type f -name "*.py" | xargs python3.11 -m pylint --exit-zero --output-format=text | tee pylint.log
+            PYLINT_SCORE=$(sed -n 's/^Your code has been rated at \([-0-9.]*\)\/.*/\1/p' pylint.log)
+            anybadge -l pylint -f pylint.svg -v $PYLINT_SCORE --prefix=' ' --suffix='/10 ' 2=red 4=orange 8=yellow 10=green
+            echo "Pylint score is $PYLINT_SCORE"
+            mv pylint.svg ./badges/
+
+      - name: Commit badge files
+        if: ${{ github.ref }} != main
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          date > badges/date.log
+          git add badges/coverage.svg
+          git add badges/pylint.svg
+          git add badges/date.log
+          git commit -m "Add badges" -n
+
+      - name: Push badge files
+        if: ${{ github.ref }} != main
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: coverage-report
+          path: ${{github.workspace}}/htmlcov
