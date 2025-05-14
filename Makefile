@@ -59,13 +59,18 @@ setup:		##@setup Install the pre-commit
 	pre-commit install
 
 all-tests:		##@tests Run all the tests
-	docker exec ecodev_cloud python3.11 -m unittest discover tests
+	docker exec ecodev_cloud python3 -m unittest discover tests
+
+publish:		##@poetry Build and publish a new patched ecodev_core version
+	python3 -m poetry version patch
+	python3 -m poetry build
+	python3 -m poetry publish
 
 tests-unitary:		##@tests Run the unitary tests
-	docker exec ecodev_cloud python3.11 -m unittest discover tests.unitary
+	docker exec ecodev_cloud python3 -m unittest discover tests.unitary
 
 tests-functional:		##@tests Run the functional tests
-	docker exec ecodev_cloud python3.11 -m unittest discover tests.functional
+	docker exec ecodev_cloud python3 -m unittest discover tests.functional
 
 prod-stop:            ##@docker Stop and remove a currently running ecodev_cloud container
 	docker-compose -f docker-compose.yml down

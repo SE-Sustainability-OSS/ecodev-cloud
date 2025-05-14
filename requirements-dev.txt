@@ -2,7 +2,7 @@ azure-storage-blob==12.*
 boto3==1.*
 ecodev-core==0.*
 Fiona==1.8.22
-GDAL==3.4.3
+GDAL==3.6.2
 notebook==6.*
 netCDF4==1.*
 parameterized==0.*
