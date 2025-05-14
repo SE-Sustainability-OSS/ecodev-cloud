@@ -13,11 +13,14 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-
 # install packages
 RUN python3.11 -m pip install --upgrade pip
 # needed to install numpy before gdal
-RUN python3.11 -m pip install numpy==1.*
+RUN python3.11 -m pip install numpy==2.*
+# Install GDAL Python bindings matching system GDAL version
+RUN GDAL_VERSION=$(gdal-config --version) && python3.11 -m pip install "GDAL==$GDAL_VERSION"
+
+# Install other Python dependencies
 COPY ./requirements.txt /requirements.txt
 RUN python3.11 -m pip install -r /requirements.txt
 

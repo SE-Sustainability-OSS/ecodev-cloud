@@ -17,7 +17,7 @@ RUN apt-get update && \
 # install packages
 RUN python3.11 -m pip install --upgrade pip
 # needed to install numpy before gdal
-RUN python3.11 -m pip install numpy==1.*
+RUN python3.11 -m pip install numpy==2.*
 COPY ./requirements-dev.txt /requirements-dev.txt
 RUN python3.11 -m pip install -r /requirements-dev.txt
 
