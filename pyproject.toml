@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "ecodev-cloud"
-version = "0.0.1"
+version = "0.0.3"
 description = "Read/write helpers for disk/aws s3/azure blob storage"
 authors = ["Thomas Epelbaum <tomepel@gmail.com>",
 					 "Olivier Gabriel <olivier.gabriel.geom@gmail.com>",
@@ -38,7 +38,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.11"
 fiona = "1.8.22"
-gdal = "3.4.3"
+gdal = "3.6.2"
 azure-storage-blob = "~12"
 boto3 = "~1"
 ecodev-core = "~0"
